@@ -48,8 +48,8 @@ selection. Highest mean PnL wins.
 ## Quick start
 
 ```bash
-git clone <repository-url>
-cd simulation-environment
+git clone https://github.com/giorgoschionas/concentrator-challenge.git
+cd concentrator-challenge
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt    # Python 3.11+ (full sim + training stack)
