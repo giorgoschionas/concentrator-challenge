@@ -1,0 +1,39 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Update notebooks manually, if necessary
+TMP_NOTEBOOKS
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pth
+
+prompts/
+
+.claude/settings.local.json
+.trees/
+
+# Generated artifacts (plots, experiment outputs)
+figures/
+experiments/results/
+notebooks/results/
+
+# RL training artifacts (local only — never commit; submit the exported .py)
+*.zip
+*.pkl
+*.npz
+best_models/
+eval/
+runs/
+tensorboard*/
+
+
+.DS_Store

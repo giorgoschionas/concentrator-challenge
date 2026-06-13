@@ -1,0 +1,17 @@
+# Core RL environment
+gymnasium==1.2.3
+
+# Numerics and plotting
+numpy==1.26.4
+matplotlib==3.10.1
+pandas==2.2.3
+
+# RL training
+stable-baselines3==2.7.1
+torch==2.10.0
+cloudpickle==3.1.1
+tqdm==4.67.1
+
+# Notebooks
+ipykernel==6.29.5
+ipython==9.2.0
