@@ -269,6 +269,21 @@ your job is to earn fees without bleeding them back out in gas and adverse selec
   grader only accepts numpy-only submissions — distill the learned policy into
   numpy literals.
 
+## Suggested reading
+
+These references are useful background for the mechanics and risk trade-offs in
+the challenge:
+
+- [Uniswap v3 Core whitepaper](https://uniswap.org/whitepaper-v3.pdf) — the
+  protocol design note introducing concentrated liquidity, flexible fee tiers,
+  and the v3 pool mechanics.
+- [Impermanent Loss in Uniswap v3](https://arxiv.org/abs/2111.09192) — empirical
+  analysis of impermanent loss for Uniswap v3 LPs.
+- [Decentralised Finance and Automated Market Making: Predictable Loss and
+  Optimal Liquidity Provision](https://arxiv.org/abs/2309.08431) — continuous-time
+  model of concentrated-liquidity LP wealth, predictable loss, gas costs, and
+  optimal range selection.
+
 ## Architecture
 
 ```text
