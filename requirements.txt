@@ -1,6 +1,9 @@
 # Core RL environment
 gymnasium==1.2.3
 
+# Testing
+pytest==8.4.0
+
 # Numerics and plotting
 numpy==1.26.4
 matplotlib==3.10.1
